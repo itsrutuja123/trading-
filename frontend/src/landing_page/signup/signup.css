@@ -1,0 +1,68 @@
+/* signup.css */
+.page_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center the form vertically */
+    background-color: #f4f7fc; /* Light background color */
+  }
+  
+  .form_container {
+    background-color: #fff; /* White background for the form */
+    padding: 30px 40px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 100%;
+    max-width: 400px; /* Limit the form width */
+    text-align: left; /* Align text to the left */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; /* Dark text color */
+    text-align: center; /* Center the header */
+  }
+  
+  form div {
+    margin-bottom: 15px; /* Spacing between form fields */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666; /* Subtle label color */
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    outline: none; /* Remove outline on focus */
+    transition: border-color 0.3s ease; /* Smooth transition */
+  }
+  
+  input:focus {
+    border-color: #007bff; /* Change border color on focus */
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* Blue background for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
