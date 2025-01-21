@@ -35,7 +35,7 @@ You can view the live version of the website here:
 ### Clone the repository:
 
 ```bash
-git clone 
+git clone https://github.com/itsrutuja123/trading-.git
 cd trading
 npm install
 Add the API key to the .env file or configuration file.
